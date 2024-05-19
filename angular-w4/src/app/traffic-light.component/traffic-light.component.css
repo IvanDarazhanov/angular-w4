@@ -1,0 +1,33 @@
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+  }
+  
+  .red, .yellow, .green {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+  }
+  
+  .red.active {
+    background-color: red;
+  }
+  
+  .yellow.active {
+    background-color: yellow;
+  }
+  
+  .green.active {
+    background-color: green;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .message {
+    color: red;
+    margin-top: 10px;
+  }
+  

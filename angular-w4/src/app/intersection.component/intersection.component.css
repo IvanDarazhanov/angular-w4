@@ -1,0 +1,28 @@
+.north{
+    left: 50%;
+    top:0;
+    position: fixed;
+}
+.south{
+    bottom:0;
+    left: 50%;
+    position: fixed;
+}
+.east{
+    right: 0;
+    top: 50%;
+    position: fixed;
+}
+.west{
+    left: 0;
+    top: 50%;
+    position: fixed;
+}
+.intersection{
+    display: flex;
+}
+.emergency{
+    top:50%;
+    right: 50%;
+    position: fixed;
+}

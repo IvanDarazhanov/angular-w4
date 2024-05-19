@@ -1,0 +1,8 @@
+<div class="intersection">
+    <app-traffic-light class="north" [lightId]="'north'" [currentLight]="currentLight1" [emergency]="emergencyActive"></app-traffic-light>
+    <app-traffic-light class="south" [lightId]="'south'" [currentLight]="currentLight1" [emergency]="emergencyActive"></app-traffic-light>
+    <app-traffic-light class="east" [lightId]="'east'" [currentLight]="currentLight2" [emergency]="emergencyActive"></app-traffic-light>
+    <app-traffic-light class="west" [lightId]="'west'" [currentLight]="currentLight2" [emergency]="emergencyActive"></app-traffic-light>
+  </div>
+  <button class="emergency" (click)="onEmergencyButtonClick()" [disabled]="emergencyActive">Авария</button>
+  

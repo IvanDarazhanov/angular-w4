@@ -1,0 +1,8 @@
+<div class="traffic-light">
+    <div [class]="currentLight === 'red' ? 'red active' : 'red'"></div>
+    <div [class]="currentLight === 'yellow' ? 'yellow active' : 'yellow'"></div>
+    <div [class]="currentLight === 'green' ? 'green active' : 'green'"></div>
+  </div>
+  <button (click)="onPressButton()" [disabled]="buttonDisabled">Пресичане</button>
+  <div *ngIf="showMessage" class="message">Неправилно пресичане</div>
+  
